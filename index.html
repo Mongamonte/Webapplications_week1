@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant menu</title>
+  </head>
+
+  <body>
+    <h1>Hello World!</h1>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+    <table>
+      <tbody>
+        <tr>
+          <td><b>Name</b></td>
+          <td><b>Price</b></td>
+        </tr>
+
+        <tr></tr>
+        <td>Crispy tofu and potatoes</td>
+        <td>7,99</td>
+        <tr></tr>
+        <td>Halloum burger</td>
+        <td>10,99</td>
+        <tr></tr>
+        <td>Cauliflower curry</td>
+        <td>9,99</td>
+        <tr></tr>
+        <td>Chickpea pasta</td>
+        <td>8,99</td>
+        <tr></tr>
+        <td>Applepie with vanilla sauce</td>
+        <td>5,99</td>
+        <tr></tr>
+        <td>Morning porridge with berries</td>
+        <td>5,99</td>
+        <tr></tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+
+    <h4>
+      Didn't find anything you like? <br />Let us know what you would like to
+      order:
+    </h4>
+
+    <h4>Leave comment here:</h4>
+    <textarea id="text-area" rows="5" cols="60" onfocus="this.value=''">
+ Type your comment here... </textarea
+    >
+    <br />
+    <button id="add-comment">Add comment</button>
+    <button id="remove-comments">Delete all comments</button>
+    <h4>Your comment(s):</h4>
+    <ul id="comment-area"></ul>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

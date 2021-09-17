@@ -1,2 +1,2 @@
-# Webapplications_week1
+# Week1_RestaurantMenu
 Created with CodeSandbox
