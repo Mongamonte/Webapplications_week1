@@ -17,7 +17,7 @@ function runCode() {
   AddButton.addEventListener("click", function () {
     //Add comment
     const UserInput = document.getElementById("text-area").value;
-    let NewComment = document.createElement("LI");
+    let NewComment = document.createElement("li");
     NewComment.innerHTML = UserInput;
     const CommentArea = document.getElementById("comment-area");
     CommentArea.appendChild(NewComment);
