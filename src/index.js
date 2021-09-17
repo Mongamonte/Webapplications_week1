@@ -4,7 +4,7 @@ if (document.readyState !== "loading") {
   console.log("Document is ready.");
   runCode();
 } else {
-  document.addEventListener("DOMContenLoaded", function () {
+  document.addEventListener("DOMContentLoaded", function () {
     console.log("The document has been downloaded.");
     runCode();
   });
